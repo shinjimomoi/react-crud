@@ -1,7 +1,7 @@
 import './App.css';
 import {useState, useEffect} from "react";
 import { db } from "./firebase-config";
-import { collection, getDocs, addDoc } from "firebase/firestore";
+import { collection, getDocs, addDoc, DocumentReference } from "firebase/firestore";
 
 function App() {
 
